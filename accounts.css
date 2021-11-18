@@ -1,0 +1,32 @@
+#teacher , #student{
+  background: blue;
+  border: 1px solid darkblue;
+  width: 20vw;
+  height: 10vh;
+  color: white;
+  margin-bottom: 10vh;
+}
+#teacher{
+  border-top-left-radius: 50%;
+  margin-left: auto ;
+}
+#student{
+  border-top-right-radius: 50%;
+  margin-right: auto;
+}
+
+input{
+  height: 7vh;
+  
+}
+
+.terms{
+  text-align: left;
+  font-family: Monospace;
+  font-size: 30%;
+}
+
+
+
+
+

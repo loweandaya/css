@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
+ input{
+  width: 35%;
+/*   margin: 0  12vw  0 10vh  ; */
+justify-content: space-around;
+} 
+::placeholder{
+  color: black;
+  opacity: 1;
+}
+
+input {
+  border: 1px solid blue;
+  
+}
+.hide{
+  display: none;
+}
+
+.forms{
+  height: 80vh;
+  width: 60vw;
+}
+
+
+.login{
+  height: 65vh;
+  width: 60vw;
+}

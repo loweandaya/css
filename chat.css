@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  justify-content: center ;
+  
+}
+.message {
+  height: 40vh;
+  width: 38vw;
+  border: 2px groove blue;
+  position: fixed;
+  bottom: 0;
+  right: 0 ;
+}
+
+.messages{
+  height:30vh ;
+  width: inherit  ;
+  border: 2px solid #000000;
+  overflow: scroll;
+}
+
+.list {
+  width: inherit;
+  position: inherit ;
+  bottom: 0;
+  left: inherit;
+  display: inline-block;
+  margin: 0 ;
+  
+  
+}
+.list #message{
+  width:70%;
+  
+}
+
+.list #message , .list button{
+  padding: auto;
+}
+
+.msg{
+  color: white;
+  width: 75%;
+  border-radius: 4px;
+  padding: auto;
+  margin-top: 5px;
+  background: royalblue;
+}

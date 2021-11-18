@@ -1,0 +1,161 @@
+*{
+  box-sizing: border-box;
+}
+/*heder design*/
+.header {
+  height: 20vh;
+  width: 100vw;
+  background: blue;
+  position: fixed;
+  top:0;
+  left: 0 ;
+  right: 0;
+  z-index: 1;
+}
+.portabook{
+  position: absolute;
+  top: 0 ;
+  left: 0;
+  margin: 0;
+ height: 100%;
+ width:auto;
+ 
+}
+.portabook img{
+  height: 20vh;
+  width:30vw;
+  margin-right: 3vw;
+}
+/* Eend here*/
+.slides{
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0 ;
+  
+}
+
+.footer{
+   background: darkblue;
+   height: 25vh;
+   width: 100vw;
+   margin: 0 ;
+   padding: 0;
+  position: absolute;
+  left: 0;
+  right: 0 ;
+  bottom: 0;
+
+
+
+}
+.center{
+  position: absolute;
+  font-size: 7vh;
+}
+
+.copyright{
+}
+
+
+.whole-form .btns {
+  
+
+   position: absolute;
+   top: 0 ;
+   right: 0 ;
+  padding: auto;
+  height: 60%;
+  width: 15%;
+  text-align: center;
+  text-decoration: none;
+}
+.button{
+  border: 3px solid white;
+  border-radius: 10px;
+   position: absolute;
+   top: 0 ;
+   right: 0 ;
+   margin-top:1vh ;
+  padding: auto;
+  height: 60%;
+  width: 15%;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+a {
+  text-decoration: none;
+  /* color: white; */
+}
+
+.lib{
+  height: 50vh;
+  width: 60vw;
+  z-index: 1 ;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.whole-form{
+margin-top: 10vh;
+}
+
+.lib img{
+  width: 30vw;
+  height: 60vh;
+  position: absolute;
+  top: 30;
+  bottom: 0 ;
+  right: 0;
+}
+.copyright img{
+  width: 30vw;
+  height:35vh;
+  padding: auto;
+  margin-top: 110vh;
+  margin-left: 35vw;
+  margin-right: 35vw;
+
+
+
+}
+@media only screen and (orientation: portrait) {
+  .portabook img {
+    height: 10vh;
+  }
+  .header{
+    height: 10vh;
+  }
+  
+.lib img{
+  width: 60vw;
+}
+
+.center{
+  font-size: 4vh;
+}
+.copyright img {
+}
+.copyrights{
+  margin-top: 40vh;
+}
+.portabook img{
+  width: 50vw;
+}
+}
+.copyrights p{
+  z-index: 1;
+  font-family: Monospace;
+}
+
+
+/* more media queries*/
+
+
+.btns h3{
+  color: white;
+}

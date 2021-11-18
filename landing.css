@@ -1,0 +1,145 @@
+*{
+  box-sizing: border-box;
+}
+/* body{
+  padding: 0;
+  margin: 0;
+  } */
+/*heder design*/
+.header {
+  height: 20vh;
+  width: 100vw;
+  background: blue;
+  position: fixed;
+  top:0;
+  left: 0 ;
+  right: 0;
+  z-index: 1;
+}
+.portabook{
+  position: absolute;
+  top: 0 ;
+  left: 0;
+  margin: 0;
+ height: 100%;
+ width:auto;
+ 
+}
+.portabook img{
+  height: 20vh;
+  width:30vw;
+  margin-right: 3vw;
+}
+/* Eend here*/
+.Next{
+  
+  width: 100vw;
+  height: 80vh;
+  padding: 0;
+  margin: 0 ;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  
+}
+.Next h4{
+  margin-top: 40vh;
+  font-size:10vh ;
+  text-align: center;
+  font-family: poppin;
+  border: 1px groove blue;
+  color: #ffffff;
+  background: blue;
+  width: 50vw;
+}
+
+.footer{
+   background: darkblue;
+   height: 25vh;
+   width: 100vw;
+   margin: 0 ;
+   padding: 0;
+  position: absolute;
+  left: 0;
+  right: 0 ;
+  bottom: 0;
+
+
+
+}
+
+
+
+.copyright{
+}
+
+
+.lib{
+  height: 50vh;
+  width: 60vw;
+  z-index: 1 ;
+}
+
+
+.lib img{
+  width: 30vw;
+  height: 60vh;
+  position: absolute;
+  top: 30;
+  bottom: 0 ;
+  right: 0;
+}
+.copyright img{
+  width: 30vw;
+  height:35vh;
+  padding: auto;
+  margin-top: 110vh;
+  margin-left: 35vw;
+  margin-right: 35vw;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  margin-top: 100vh;
+  margin-left: 3vw;
+}
+@media only screen and (orientation: portrait) {
+  .portabook img {
+    height: 10vh;
+  }
+  .header{
+    height: 10vh;
+  }
+  
+.lib img{
+  width: 60vw;
+}
+
+.center{
+  font-size: 4vh;
+}
+.copyright img {
+}
+.copyrights{
+  margin-top: 40vh;
+}
+.portabook img{
+  width: 50vw;
+}
+}
+.copyrights p{
+  /* z-index: 1; */
+  font-family: Monospace;
+  text-align: center;
+  
+}
+
+
+/* more media queries*/
+
